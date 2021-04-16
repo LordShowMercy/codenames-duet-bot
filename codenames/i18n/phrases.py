@@ -2,33 +2,39 @@ from codenames.i18n.language import _Language
 
 RUSSIAN = _Language.RUSSIAN
 ENGLISH = _Language.ENGLISH
+PERSIAN = _Language.PERSIAN
 
 
 # common
 
 AND = {
     RUSSIAN: "и",
-    ENGLISH: "and"
+    ENGLISH: "and",
+    PERSIAN: "و" 
 }
 
 NOBODY = {
     RUSSIAN: "никто",
-    ENGLISH: "nobody"
+    ENGLISH: "nobody",
+    PERSIAN: "هیچکس" 
 }
 
 SUCCESS = {
     RUSSIAN: "Успешно!",
-    ENGLISH: "Success!"
+    ENGLISH: "Success!",
+    PERSIAN: "موفقیت!" 
 }
 
 CANCELLED = {
     RUSSIAN: "Ввод отменён.",
-    ENGLISH: "Cancelled input."
+    ENGLISH: "Cancelled input.",
+    PERSIAN: "ورودی لغو شد"
 }
 
 DONT_UNDERSTAND = {
     RUSSIAN: "Я вас не понимаю.",
-    ENGLISH: "I don't understand you."
+    ENGLISH: "I don't understand you.",
+    PERSIAN: "متوجه نشدم."
 }
 
 
@@ -42,6 +48,9 @@ HELP_MESSAGE = {
     ENGLISH: (
         "Hello! I am bot that will allow you to play "
         "Codenames.Duet with your friends."
+    ),
+    PERSIAN: (
+        " سلام! شما به وسیله این ربات می‌تونید بازی کدنیمز رو با دوستانتون بازی کنید."
     )
 }
 
@@ -50,22 +59,26 @@ HELP_MESSAGE = {
 
 CREATE_GAME_INLINE = {
     RUSSIAN: "создать игру",
-    ENGLISH: "create a game"
+    ENGLISH: "create a game",
+    PERSIAN: "ساخت بازی"
 }
 
 TOKEN_COUNT_SETTING = {
     RUSSIAN: "{} ходов",
-    ENGLISH: "{} turns"
+    ENGLISH: "{} turns",
+    PERSIAN: "{} نوبت" 
 }
 
 CREATE_GAME_WITH_SETTINGS = {
     RUSSIAN: "✅ :: {token_count} ходов, {wordlist} :: ✅",
-    ENGLISH: "✅ :: {token_count} turns, {wordlist} :: ✅"
+    ENGLISH: "✅ :: {token_count} turns, {wordlist} :: ✅",
+    PERSIAN: "✅ :: {token_count} نوبت, {wordlist} :: ✅"
 }
 
 GAME_CREATED = {
     RUSSIAN: "Игра создана.",
     ENGLISH: "Game created."
+    PERSIAN: "بازی ساخته شد."
 }
 
 
@@ -73,17 +86,20 @@ GAME_CREATED = {
 
 JOIN_GAME_AUTO_TEAM = {
     RUSSIAN: "присоединиться (автовыбор стороны)",
-    ENGLISH: "join (choose side automatically)"
+    ENGLISH: "join (choose side automatically)",
+    PERSIAN: "ورود به بازی (انتخاب تیم به صورت اتفاقی)"
 }
 
 JOIN_GAME_FIRST_TEAM = {
     RUSSIAN: "к первой",
-    ENGLISH: "join the first"
+    ENGLISH: "join the first",
+    PERSIAN: "ورود به تیم اول"
 }
 
 JOIN_GAME_SECOND_TEAM = {
     RUSSIAN: "ко второй",
-    ENGLISH: "join the second"
+    ENGLISH: "join the second",
+    PERSIAN: "ورود به تیم دوم"
 }
 
 CHOOSE_NEW_GAME_SETTINGS = {
